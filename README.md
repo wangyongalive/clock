@@ -4,20 +4,14 @@
 
 >![Alt text|center](./static/shortcut1.png)
 
-><img src='./static/shortcut1.png'  style='margin:0 auto;width:300px;height:100 px'/>
-
-
 修改成
 
 >![Alt text|center](./static/shortcut2.png)
 
 >2、找到build文件夹下的until文件
-
->![Alt text](https://images2017.cnblogs.com/blog/1115243/201801/1115243-20180104132910049-1947341303.png)
-
+>![Alt text|center](./static/shortcut3.png)
 >修改成
-
->![Alt text](https://images2017.cnblogs.com/blog/1115243/201801/1115243-20180104132954331-1950341169.png)
+>![Alt text|center](./static/shortcut4.png)
 
 
 
