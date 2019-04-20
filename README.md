@@ -4,7 +4,10 @@
 
 >![Alt text|center](./static/shortcut1.png)
 
->修改成
+><img src='./static/shortcut1.png' align='center' style=' width:300px;height:100 px'/>
+
+
+修改成
 
 >![Alt text|center](./static/shortcut2.png)
 
