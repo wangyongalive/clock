@@ -2,10 +2,10 @@
 
 >1.找到config文件夹下的index文件
 
->![Alt text](https://images2017.cnblogs.com/blog/1115243/201801/1115243-20180104132653674-965378822.png)
 
->![截图.png](./static/截图1.png)
-><img src="static/截图1.png" width="200px" /> 
+>![Alt text](https://github.com/wangyongalive/clock/blob/master/static/%E6%88%AA%E5%9B%BE1.png)
+
+
 
 >修改成
 
