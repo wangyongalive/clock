@@ -4,7 +4,7 @@
 
 >![Alt text|center](./static/shortcut1.png)
 
-><img src='./static/shortcut1.png' align='center' style=' width:300px;height:100 px'/>
+><img src='./static/shortcut1.png'  style='margin:0 auto;width:300px;height:100 px'/>
 
 
 修改成
