@@ -3,7 +3,10 @@
 >1.找到config文件夹下的index文件
 
 
->![Alt text](https://github.com/wangyongalive/clock/blob/master/static/%E6%88%AA%E5%9B%BE1.png)
+>![Alt text](https://github.com/wangyongalive/clock/blob/master/static/shortcut1.png)
+>![Alt text](./shortcut1.png)
+>![Alt text](./static/shortcut1.png)
+>![Alt text](https://github.com/wangyongalive/clock/blob/master/static/shortcut1.png)
 
 
 
