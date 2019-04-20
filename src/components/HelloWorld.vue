@@ -145,7 +145,7 @@
         ],
         R: 8,
         D: 17,
-        END_TIME: new Date(2019, 3, 15, 5, 30, 0),
+        END_TIME: new Date(2019, 3, 20, 15, 30, 0),
         WIDTH: 0,
         HEIGHT: 0,
         TOP_MARGIN: 0,
@@ -167,17 +167,11 @@
       let canvas = document.getElementById("canvas");
       canvas.width = this.WIDTH;
       canvas.height = this.HEIGHT;
-      let context = canvas.getContext('2d');
+      this.context = canvas.getContext('2d');
       this.curShowTimeSeconds = this.getCurrentShowTimeSeconds(); // 当前展示时间
 
-      let self = this;
-      // 设置定时器 this 没有指向Vue
-      setInterval(function () {
-        //绘制数字
-        self.drawDigit(context);
-        //更新彩球数字
-        self.update();
-      }, 50);
+      this.animated();
+
     },
     methods: {
       getCurrentShowTimeSeconds() {
@@ -321,6 +315,15 @@
         while (this.balls.length > Math.min(350, cnt)) {
           this.balls.pop();
         }
+      },
+      animated() {
+        let self = this;
+        //绘制数字
+        self.drawDigit(self.context);
+        //更新彩球数字
+        self.update();
+        // 动画使用requestAnimationFrame
+        requestAnimationFrame(self.animated);
       }
     }
   }
