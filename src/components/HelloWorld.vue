@@ -145,7 +145,8 @@
         ],
         R: 8,
         D: 17,
-        END_TIME: new Date(2019, 3, 20, 15, 30, 0),
+        // END_TIME: new Date(2019, 3, 20, 15, 30, 0),
+        END_TIME: new Date(),
         WIDTH: 0,
         HEIGHT: 0,
         TOP_MARGIN: 0,
@@ -176,7 +177,7 @@
     methods: {
       getCurrentShowTimeSeconds() {
         let curTime = new Date(); // 当前时间
-        let ret = this.END_TIME.getTime() - curTime.getTime(); // 倒计时时间
+        let ret = this.END_TIME.getTime() + 1000 * 60 * 60 - curTime.getTime(); // 倒计时时间
         ret = Math.round(ret / 1000); // 毫秒变为秒
         return ret >= 0 ? ret : 0;
       },
